@@ -15,8 +15,10 @@ export default class Router extends React.Component {
   }
 
   componentWillMount() {
+    // You can customize this palette by using the following
+    // color codes: http://material-ui.com/#/customization/colors
     ThemeManager.setPalette({
-      primary1Color: Colors.deepOrange500,
+      primary1Color: Colors.indigo500,
       primary2Color: Colors.grey100,
       primary3Color: Colors.grey100,
       accent1Color: Colors.grey300,
